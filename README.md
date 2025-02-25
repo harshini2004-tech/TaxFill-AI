@@ -78,16 +78,13 @@ streamlit run app.py
 
 ---
 
-## 📞 **Need Help?**  
-For any queries, reach out to us at **support@taxfill.ai** or visit our **[Help Center](https://taxfill.ai/help)**.  
+
 
 ---
 
 💼 **TaxFill AI – Smarter Taxes, Bigger Refunds!** 🎯  
 
 ---
-
-Let me know if you'd like any further refinements! 🚀
 
 
 
