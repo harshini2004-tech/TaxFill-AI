@@ -7,7 +7,7 @@ import pdfkit
 # Set page config FIRST
 st.set_page_config(
     page_title="TaxFill-AI",
-    page_icon="💰",
+    page_icon="💸",
     layout="centered",
 )
 
@@ -78,12 +78,12 @@ if "chat_history" not in st.session_state:
         {"role": "assistant", "content": INITIAL_RESPONSE},
     ]
 
-st.title("Welcome to Your Tax Assistant! 💰")
+st.title("Welcome to Your TaxFill AI! 💲")
 st.caption("Here to guide you through tax finalization with ease.")
 
 for message in st.session_state.chat_history:
     role = "user" if message["role"] == "user" else "assistant"
-    avatar = "🗨️" if role == "user" else "💼"
+    avatar = "💎" if role == "user" else "💼"
     with st.chat_message(role, avatar=avatar):
         st.markdown(message["content"])
 
@@ -161,7 +161,7 @@ if st.sidebar.button("Export Chat as PDF"):
     st.sidebar.success("Chat exported as PDF!")
 
 if user_prompt:
-    with st.chat_message("user", avatar="🗨️"):
+    with st.chat_message("user", avatar="💎"):
         st.markdown(user_prompt)
     st.session_state.chat_history.append({"role": "user", "content": user_prompt})
 
