@@ -57,5 +57,7 @@ Let **Tax Assistant** automate your tax filing and maximize your returns effortl
 
 
 <img width="782" alt="{7CB28ADB-BA48-4621-B50B-0FD8416F44C1}" src="https://github.com/user-attachments/assets/6cb1f364-616f-468f-85ad-fba4870b4a2e" />
+<img width="652" alt="{9E93C3FF-428C-4E04-AAC2-D1FB7B65F451}" src="https://github.com/user-attachments/assets/6023b5b7-a3e0-4378-a1c1-c34eee875104" />
+
 
 
