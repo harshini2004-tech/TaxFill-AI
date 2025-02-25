@@ -4,6 +4,52 @@ import streamlit as st
 from groq import Groq
 import pdfkit
 
+# Set page config FIRST
+st.set_page_config(
+    page_title="TaxFill-AI",
+    page_icon="💰",
+    layout="centered",
+)
+
+# Custom CSS for styling
+st.markdown("""
+    <style>
+    .stApp {
+        background-color:#244855 ;
+    }
+    .stTitle {
+        color: #FBE9D0;
+    }
+    .stChatMessage {
+        background-color: #874F41;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    .stChatMessage.user {
+        background-color: #e3f2fd;
+    }
+    .stChatMessage.assistant {
+        background-color: #fff3e0;
+    }
+    .stSidebar {
+        background-color: 90AEAD;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .stButton>button {
+        background-color: #4a90e2;
+        color: white;
+        border-radius: 5px;
+        padding: 10px 20px;
+        border: none;
+    }
+    .stButton>button:hover {
+        background-color: #E64833;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 def parse_groq_stream(stream):
     response_content = ""
     for chunk in stream:
@@ -11,13 +57,6 @@ def parse_groq_stream(stream):
             response_content += chunk.choices[0].delta.content
             yield chunk.choices[0].delta.content
     return response_content
-
-
-st.set_page_config(
-    page_title="Tax Assistant 🧑‍💼",
-    page_icon="💰",
-    layout="centered",
-)
 
 try:
     secrets = dotenv_values(".env")  
