@@ -86,14 +86,13 @@ streamlit run app.py
 
 ---
 
+<img width="1037" alt="{959B3E1E-B351-45AB-825C-8AFA41B55E73}" src="https://github.com/user-attachments/assets/68b0ce56-efd5-4707-9b36-9e140630804a" />
+<img width="610" alt="{3B796D5E-B9A4-4AF5-A193-8F2EE36D13B9}" src="https://github.com/user-attachments/assets/cdda1baf-c3c7-4f7f-b912-ff763eccd05b" />
+<img width="543" alt="{C780C835-5330-4FF4-8DD1-BEBA2C16CF82}" src="https://github.com/user-attachments/assets/fc9f3aea-7e54-47dd-8459-0a962ee5534b" />
+<img width="545" alt="{331A3DC7-8747-4C7E-8733-26DEB10E2E3B}" src="https://github.com/user-attachments/assets/f6431b0e-b206-4844-b4ef-6bc447520a87" />
 
 
 
-<img width="1120" alt="{4175C828-F983-4B3A-A281-E180C2828260}" src="https://github.com/user-attachments/assets/5d524746-0b7d-4116-8231-0c849d10b904" />
-
-
-<img width="782" alt="{7CB28ADB-BA48-4621-B50B-0FD8416F44C1}" src="https://github.com/user-attachments/assets/6cb1f364-616f-468f-85ad-fba4870b4a2e" />
-<img width="652" alt="{9E93C3FF-428C-4E04-AAC2-D1FB7B65F451}" src="https://github.com/user-attachments/assets/6023b5b7-a3e0-4378-a1c1-c34eee875104" />
 
 
 
