@@ -8,7 +8,7 @@ Tax season can be overwhelming, but **Tax Assistant** is here to guide you every
 
 ## 🌟 Key Features  
 
-📑 Smart Tax Form Guidance
+###📑 Smart Tax Form Guidance**
 ✅ Automated assistance with Form 1040, W-2, 1099, and other key tax documents.
 ✅ AI-powered support for Schedules A, B, C, D, and E, covering deductions, business income, and investments.
 ✅ Seamless guidance on state and local tax filings for hassle-free compliance. 
