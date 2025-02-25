@@ -46,6 +46,12 @@ Tax season can be complex, but **Tax Assistant** streamlines the process with AI
 🔒 **Secure & Private** – Your financial data stays encrypted & protected.  
 
 ---  
+Create a .streamlit/secrets.toml file in the project root
+GROQ_API_KEY=""
+LLAMA_CLOUD_API_KEY=""
+QDRANT_API_KEY=""
+
+---
 
 ### 🔥 **Get Started Today!**  
 Let **Tax Assistant** automate your tax filing and maximize your returns effortlessly.  
